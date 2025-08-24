@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Microservice.Controllers.PruebasController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Pruebas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
