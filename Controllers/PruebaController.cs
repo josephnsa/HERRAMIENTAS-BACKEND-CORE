@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Model.Request;
 using Service.Logic;
 
 namespace Microservice.Controllers
@@ -18,6 +19,12 @@ namespace Microservice.Controllers
 		public async Task<IActionResult> ObtenerTodos()
 		{
 			var Pruebas = await _PruebaService.GetPrueba();
+			return Ok(Pruebas);
+		}
+		[HttpPost]
+		public async Task<IActionResult> ObtenerSegurosCliente(ObtenerSegurosClienteRequest model)
+		{
+			var Pruebas = await _PruebaService.ObtenerSegurosCliente(model);
 			return Ok(Pruebas);
 		}
 	}

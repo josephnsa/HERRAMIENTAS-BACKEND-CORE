@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Data.Base;
+using Model.Request;
 using Model.Response;
 using System.Data;
 
@@ -8,6 +9,7 @@ namespace Data.Repository
 	public interface IPruebaRepository
 	{
 		Task<IEnumerable<SystemParameterGetByReferenceResponse>> GetPrueba();
+		Task<IEnumerable<ObtenerSegurosClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model);
 	}
 	public class PruebaRepository : IPruebaRepository
 	{
@@ -44,5 +46,30 @@ namespace Data.Repository
 				return Enumerable.Empty<SystemParameterGetByReferenceResponse>();
 			}
 		}
+		public async Task<IEnumerable<ObtenerSegurosClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model)
+		{
+			var query = "sp_ObtenerSegurosCliente";
+
+			using var cn = await _conexion.CreateConnectionAsync();
+
+			try
+			{
+				var result = await cn.QueryAsync<ObtenerSegurosClienteResponse>(
+					query,
+					new
+					{
+						model.TipoDocumento,
+						model.NumeroDocumento,
+					},
+					commandType: CommandType.StoredProcedure
+				);
+				return result;
+			}
+			catch (Exception ex)
+			{
+				return Enumerable.Empty<ObtenerSegurosClienteResponse>();
+			}
+		}
 	}
+
 }
