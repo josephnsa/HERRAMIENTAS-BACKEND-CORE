@@ -44,3 +44,19 @@ D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.dll
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\refint\Data.dll
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.pdb
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\ref\Data.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\bin\Debug\net9.0\Data.deps.json
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\bin\Debug\net9.0\Data.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\bin\Debug\net9.0\Data.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\bin\Debug\net9.0\Model.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\bin\Debug\net9.0\Model.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.csproj.AssemblyReference.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.AssemblyInfoInputs.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.AssemblyInfo.cs
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.sourcelink.json
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.csproj.Up2Date
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\refint\Data.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\Data.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Data\obj\Debug\net9.0\ref\Data.dll

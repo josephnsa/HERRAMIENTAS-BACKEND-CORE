@@ -46,30 +46,34 @@ namespace Data.Repository
 				return Enumerable.Empty<SystemParameterGetByReferenceResponse>();
 			}
 		}
-		public async Task<IEnumerable<ObtenerSegurosClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model)
-		{
-			var query = "sp_ObtenerSegurosCliente";
 
-			using var cn = await _conexion.CreateConnectionAsync();
 
-			try
-			{
-				var result = await cn.QueryAsync<ObtenerSegurosClienteResponse>(
-					query,
-					new
-					{
-						model.TipoDocumento,
-						model.NumeroDocumento,
-					},
-					commandType: CommandType.StoredProcedure
-				);
-				return result;
-			}
-			catch (Exception ex)
-			{
-				return Enumerable.Empty<ObtenerSegurosClienteResponse>();
-			}
-		}
-	}
+        public async Task<IEnumerable<ObtenerSegurosClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model)
+        {
+            var query = "sp_ConsultarSegurosPorCliente";
 
+            using var cn = await _conexion.CreateConnectionAsync();
+
+            try
+            {
+                var result = await cn.QueryAsync<ObtenerSegurosClienteResponse>(
+                    query,
+                    new
+                    {
+                        model.TipoDocumento,
+                        model.NumeroDocumento,
+                        model.FechaInicio,
+                        model.FechaFin
+                    },
+                    commandType: CommandType.StoredProcedure
+                );
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return Enumerable.Empty<ObtenerSegurosClienteResponse>();
+            }
+        }
+    }
 }

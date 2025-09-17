@@ -50,3 +50,21 @@ D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.dll
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\refint\Service.dll
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.pdb
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\ref\Service.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Service.deps.json
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Service.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Service.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Data.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Model.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Data.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\bin\Debug\net9.0\Model.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.sourcelink.json
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\refint\Service.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\Service.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Service\obj\Debug\net9.0\ref\Service.dll

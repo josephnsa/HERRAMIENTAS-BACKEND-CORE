@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj": {}
+    "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj": {
+    "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
-        "outputPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Data\\obj\\",
+        "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\jose_\\.nuget\\packages\\",
+        "outputPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jose_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
-                "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj"
+              "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
+                "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj"
               }
             }
           }
@@ -83,20 +83,20 @@
         }
       }
     },
-    "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
+    "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
-        "outputPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\obj\\",
+        "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\jose_\\.nuget\\packages\\",
+        "outputPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jose_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -148,20 +148,20 @@
         }
       }
     },
-    "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj": {
+    "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
-        "outputPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Service\\obj\\",
+        "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\jose_\\.nuget\\packages\\",
+        "outputPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jose_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -176,11 +176,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj": {
-                "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj"
+              "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj": {
+                "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Data\\Data.csproj"
               },
-              "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
-                "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj"
+              "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
+                "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj"
               }
             }
           }

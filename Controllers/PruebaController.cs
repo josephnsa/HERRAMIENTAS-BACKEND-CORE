@@ -4,28 +4,32 @@ using Service.Logic;
 
 namespace Microservice.Controllers
 {
-	[ApiController]
-	[Route("api/[controller]")]
-	public class PruebasController : ControllerBase
-	{
-		private readonly IPruebaService _PruebaService;
+    [ApiController]
+    [Route("api/[controller]")]
+    public class PruebasController : ControllerBase
+    {
+        private readonly IPruebaService _pruebaService;
 
-		public PruebasController(IPruebaService pruebaService)
-		{
-			_PruebaService = pruebaService;
-		}
+        public PruebasController(IPruebaService pruebaService)
+        {
+            _pruebaService = pruebaService;
+        }
 
-		[HttpGet]
-		public async Task<IActionResult> ObtenerTodos()
-		{
-			var Pruebas = await _PruebaService.GetPrueba();
-			return Ok(Pruebas);
-		}
-		[HttpPost]
-		public async Task<IActionResult> ObtenerSegurosCliente(ObtenerSegurosClienteRequest model)
-		{
-			var Pruebas = await _PruebaService.ObtenerSegurosCliente(model);
-			return Ok(Pruebas);
-		}
-	}
+        [HttpGet("Obtener")]
+        public async Task<IActionResult> ObtenerTodos()
+        {
+            var pruebas = await _pruebaService.GetPrueba();
+            return Ok(pruebas);
+        }
+
+        [HttpPost("ConsultarSegurosCliente")]
+        public async Task<IActionResult> ConsultarSegurosCliente([FromBody] ObtenerSegurosClienteRequest model)
+        {
+            if (model == null)
+                return BadRequest("El request no puede ser nulo.");
+
+            var seguros = await _pruebaService.ConsultarSegurosPorCliente(model);
+            return Ok(seguros);
+        }
+    }
 }

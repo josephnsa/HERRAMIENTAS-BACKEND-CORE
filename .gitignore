@@ -381,6 +381,10 @@ appsettings.*.json
 appsettings.Development.json
 appsettings.Production.json
 appsettings.Staging.json
+Data/obj/*
+Model/obj/*
+obj/*
+Service/obj/*
 
 # Archivos de usuario específicos
 *.user

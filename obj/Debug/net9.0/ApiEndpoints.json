@@ -1,18 +1,8 @@
 [
   {
     "ContainingType": "Microservice.Controllers.PruebasController",
-    "Method": "ObtenerTodos",
-    "RelativePath": "api/Pruebas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Microservice.Controllers.PruebasController",
-    "Method": "ObtenerSegurosCliente",
-    "RelativePath": "api/Pruebas",
+    "Method": "ConsultarSegurosCliente",
+    "RelativePath": "api/Pruebas/ConsultarSegurosCliente",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -23,6 +13,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microservice.Controllers.PruebasController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Pruebas/Obtener",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {}
+    "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {}
   },
   "projects": {
-    "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
+    "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
-        "outputPath": "D:\\Tools\\Dotnet\\HERRAMIENTAS-BACKEND-CORE\\Model\\obj\\",
+        "projectPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\jose_\\.nuget\\packages\\",
+        "outputPath": "D:\\Nueva carpeta\\HERRAMIENTAS-BACKEND-CORE\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jose_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -28,4 +28,19 @@
 		public string NumeroSerie { get; set; }
 		public string TieneRenovacion { get; set; }
 	}
+    
+	public class SeguroClienteResponse
+    {
+        public string Cliente { get; set; }
+        public string NumeroDocumento { get; set; }
+        public string Agente { get; set; }
+        public string TipoPoliza { get; set; }
+        public string EstadoPoliza { get; set; }
+        public string NumeroPoliza { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
+        public decimal PrimaTotal { get; set; }
+    }
+
+
 }

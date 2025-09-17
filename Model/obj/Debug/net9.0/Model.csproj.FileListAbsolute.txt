@@ -32,3 +32,15 @@ D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.dll
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\refint\Model.dll
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.pdb
 D:\Tools\Dotnet\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\ref\Model.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\bin\Debug\net9.0\Model.deps.json
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\bin\Debug\net9.0\Model.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\bin\Debug\net9.0\Model.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.AssemblyInfoInputs.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.AssemblyInfo.cs
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.sourcelink.json
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\refint\Model.dll
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\Model.pdb
+D:\Nueva carpeta\HERRAMIENTAS-BACKEND-CORE\Model\obj\Debug\net9.0\ref\Model.dll

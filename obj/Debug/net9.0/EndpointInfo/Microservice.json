@@ -10,7 +10,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Pruebas": {
+    "/api/Pruebas/Obtener": {
       "get": {
         "tags": [
           "Pruebas"
@@ -20,7 +20,9 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Pruebas/ConsultarSegurosCliente": {
       "post": {
         "tags": [
           "Pruebas"
@@ -64,6 +66,14 @@
           "numeroDocumento": {
             "type": "string",
             "nullable": true
+          },
+          "fechaInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaFin": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
