@@ -7,7 +7,7 @@ namespace Service.Logic
     public interface IPruebaService
     {
         Task<IEnumerable<SystemParameterGetByReferenceResponse>> GetPrueba();
-        Task<IEnumerable<ObtenerSegurosClienteResponse>> ConsultarSegurosPorCliente(ObtenerSegurosClienteRequest model);
+        Task<IEnumerable<SeguroClienteResponse>> ConsultarSegurosPorCliente(ObtenerSegurosClienteRequest model);
     }
 
     public class PruebaService : IPruebaService
@@ -24,7 +24,7 @@ namespace Service.Logic
             return await _Repository.GetPrueba();
         }
 
-        public async Task<IEnumerable<ObtenerSegurosClienteResponse>> ConsultarSegurosPorCliente(ObtenerSegurosClienteRequest model)
+        public async Task<IEnumerable<SeguroClienteResponse>> ConsultarSegurosPorCliente(ObtenerSegurosClienteRequest model)
         {
             return await _Repository.ObtenerSegurosClienteRepository(model);
         }

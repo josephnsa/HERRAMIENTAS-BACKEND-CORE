@@ -9,7 +9,7 @@ namespace Data.Repository
 	public interface IPruebaRepository
 	{
 		Task<IEnumerable<SystemParameterGetByReferenceResponse>> GetPrueba();
-		Task<IEnumerable<ObtenerSegurosClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model);
+		Task<IEnumerable<SeguroClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model);
 	}
 	public class PruebaRepository : IPruebaRepository
 	{
@@ -48,7 +48,7 @@ namespace Data.Repository
 		}
 
 
-        public async Task<IEnumerable<ObtenerSegurosClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model)
+        public async Task<IEnumerable<SeguroClienteResponse>> ObtenerSegurosClienteRepository(ObtenerSegurosClienteRequest model)
         {
             var query = "sp_ConsultarSegurosPorCliente";
 
@@ -56,7 +56,7 @@ namespace Data.Repository
 
             try
             {
-                var result = await cn.QueryAsync<ObtenerSegurosClienteResponse>(
+                var result = await cn.QueryAsync<SeguroClienteResponse>(
                     query,
                     new
                     {
@@ -72,8 +72,9 @@ namespace Data.Repository
             }
             catch (Exception ex)
             {
-                return Enumerable.Empty<ObtenerSegurosClienteResponse>();
+                return Enumerable.Empty<SeguroClienteResponse>();
             }
         }
+
     }
 }
