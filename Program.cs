@@ -16,6 +16,9 @@ builder.Services.AddSingleton<IConexion>(new Conexion(connectionString));
 builder.Services.AddScoped<IPruebaRepository, PruebaRepository>();
 builder.Services.AddScoped<IPruebaService, PruebaService>();
 
+builder.Services.AddScoped<IVehiculoRepository, VehiculoRepository>();
+builder.Services.AddScoped<IVehiculoService, VehiculoService>();
+
 // Configurar Swagger para .NET 9
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
